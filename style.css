@@ -1,0 +1,131 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: #c8e8e9;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.container {
+    background-color: #fff;
+    max-width: 1100px;
+    width: 100%;
+    height: 480px;
+    border-radius: 6px;
+    box-shadow: 0 5px 10px rgba(0, 0, 0, 0.2);
+    padding: 35px;
+}
+
+.content {
+    height: 100%;
+    display: flex;
+    gap: 14px;
+    align-items: center;
+    justify-content: center;
+
+}
+.left_content{
+    width: 25%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.left_content::before{
+    content: '';
+    background-color: #afafb6;
+    width: 2px;
+    height: 50%;
+    position: absolute;
+    right: 62rem;
+    top: 50%;
+    transform: translateY(-50%);
+}
+
+.right_content {
+    width: 75%;
+    height: 100%;
+    background-color: cadetblue;
+}
+
+.info_contact{
+    text-align: center;
+    margin: 25px 0;
+}
+
+.info_contact i{
+    font-size: 30px;
+    color: #c8e8e9;
+    margin-bottom: 10px;
+}
+
+.info_contact h5{
+    font-size: 19px;
+    font-weight: 500;
+}
+
+.info_contact span{
+    font-size: 14px;
+    display: block;
+    color: #afafb6;
+}
+
+
+.right_content{
+    padding-left: 75px;
+}
+
+
+
+.right_content h4{
+    font-size: 25px;
+    color: #c8e8e9;
+    font-weight: 600;
+}
+
+.input_box{
+    width: 100%;
+    height: 55px;
+    margin: 12px 0;
+}
+
+.input_box input, .input_box textarea{
+    background-color: #f0f1f8;
+    border: none;
+    width: 100%;
+    height: 80%;
+    padding: 0 15px;
+    border-radius: 6px;
+    font-size: 15px;
+    resize: none;
+
+}
+
+.input_box textarea{
+    background-color: #f0f1f8;
+    border: none;
+    width: 100%;
+    min-height: 110px;
+    padding: 0 15px;
+    border-radius: 6px;
+    font-size: 15px;
+    resize: none;
+}
+
+.btn_form{
+    border: none;
+    background-color: #c8e8e9;
+    color: #fff;
+    border-radius: 6px;
+    font-size: 18px;
+    padding: 8px 16px;
+    margin-top: 70px;
+}
